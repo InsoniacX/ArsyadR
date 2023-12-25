@@ -50,6 +50,7 @@
 }
 
 .main img {
+    width: auto;
     float: inline-end;
 }
 
