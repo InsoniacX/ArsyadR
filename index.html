@@ -1,105 +1,262 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arsyad Rianda Putra | InsCX</title>
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Navbar Start -->
-    <nav class="navbar">  
-        <div class="logo">  
-            <a href="#">INSC<span>X</span></a>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon/image_2023-12-22_211245046.ico">
+    <title>InsoniacX | Arsyad Rianda Putra</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-black p-3 shadow fixed-top">
+      <div class="container-md">
+        <a class="logo" href="#">INSC<span>X</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">SKILLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
         </div>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#">Content</a></li>
-            <li><a href="#">Contact Me</a></li>
-        </ul>
+      </div>
     </nav>
-    <span></span>
-    <span></span>
-    <span></span>
-    <!-- Navbar End -->
 
-    <!-- Home Section Start -->
-    <section id="home" class="home">
-        <div class="content-satu">
-            <h3>Hello Everyone!</h3>
-            <h1>Arsyad Rianda Putra</h1>
-            <h2>Back-End Engineer</h2>
-            <div class="image-container-satu">
-                <img src="./img/hero-image/enlarge_WhatsApp_Image_2023-11-24_at_20.22.31 (1).jpeg" alt="My_Profile">
-            </div>
+      <section class="main py-5">
+        <div class="container py-5">
+          <img src="/img/hero-image/enlarge_WhatsApp_Image_2023-11-24_at_20.22.31.jpeg" alt="Hero Image" class="hero-image d-flex mx-auto rounded-circle justify-content-end">
+            <div class="text-container row py-5 mx-3 flex-nowrap">
+              <div class="col-lg-5 py-5 mr-auto">
+                <h3><small>Hello, I'm</small><br>
+                  Arsyad
+                </h3>
+                <h5>Full-Stack Developer</h5>
+                <input type="button" value="My Work" class="bt1 mt-5">
+                <input type="button" value="Hire Me" class="bt2 mt-5">
+              </div>
+          </div>
         </div>
-    </section>
-    
-    <!-- Home Section End -->
+      </section>
 
-    <!-- About Section Start -->
-    <section id="about" class="about">
-        <div class="content-dua reveal">
-            <div class="image-container-dua">
-                <img src="./img/hero-image/294996228_145388398138910_401574832459585270_n.jfif" alt="My-Picture">
+      <section class="about py-5" id="about">
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-lg-5">
+              <img src="img/hero-image/294996228_145388398138910_401574832459585270_n.jfif" alt="My-Picture" class="img-fluid mr-2" data-aos="fade-right">
             </div>
-            <div class="text-content-dua">
-                <h3>About Me</h3>
-                <p>I'm Back-End Engineer with 1 year experience in that position. i'm an college in <b>Pasundan University</b> majoring informatics to achive a Bachelor's degree for my future in IT's World</p>
+            <div class="text-container col-lg-7 pt-3 mx-6 float-end" data-aos="fade-left">
+              <h1>About Me</h1>
+              <p>Full-Stack Developer</p>
+              <p class="py-5">I am <span class="font-weight-bold">Arsyad Rianda Putra.</span> I'm a <bold>Full-Stack Developer</bold> and <bold>College Student</bold> in <bold>Pasundan University</bold> majoring in informatics to achive a Bachelor's degree for my future in IT's World</p>
+
+              <div class="progress my-2">
+                <div class="pro-value1">
+                  <p>Python / Django<span class="text-white float-end">60%</span></p>
+                </div>
+              </div>
+              <div class="progress my-2">
+                <div class="pro-value2">
+                  <p>PHP / MySQL<span class="text-white float-end">65%</span></p>
+                </div>
+              </div>
+              <div class="progress my-2">
+                <div class="pro-value3">
+                  <p>C# / .NET<span class="text-white float-end">50%</span></p>
+                </div>
+              </div>
+              <div class="progress my-2">
+                <div class="pro-value4">
+                  <p>JavaScript / React / Jquery<span class="text-white float-end">70%</span></p>
+                </div>
+              </div>
+              <input type="button" class="btn1 mt-5" value="Download C.V.">
+              <input type="button" class="btn2 mt-5" value="Contact Me">
             </div>
+          </div>
         </div>
-    </section>
-    <!-- About Section End -->
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
 
-    <!-- Skills Section Start -->
-    <section id="skills" class="skills">
-        <div class="content-tiga">
-            <h2>Skills</h2>
-            <div class="container">
-                <div class="card">
-                    <img src="./img/icon/JavaScript-logo.png"/>
-                    <h4>JavaScript</h4>
-                    <progress value="60" max="100"></progress>
-                    <p>I learned JavaScript Frameworks like ExpressJS, NextJS, etc. And I already make some project using JavaScript like some Document Oriented Model Manipulation (DOM Manipulation)</p>
+      <section class="skills py-5" id="skills">
+        <div class="container-fluid py-5 text-center">
+          <div class="row">
+            <div class="col pb-5 text-center">
+              <h1 class="display-3" data-aos="fade-down">Additional Skills</h1>
+            </div>
+            <div class="skill ">
+              <div class="video-games py-2">
+                <h3 class="mb-4" data-aos="fade-down">Video Games</h3>
+                <div class="container py-4 my-5 d-flex justify-content-between" data-aos="fade-down">
+                  <img src="img/card-image/png-transparent-dota-2-dota-2-league-of-legends-the-international-video-game-axe-logo-game-logo-international-3408214490.png" alt="dota-2">
+                  <img src="img/card-image/counter-strike-icon-30.png" alt="cs2">
+                  <img src="img/card-image/60e7fc70711cf700048b6a70-2082735803.png" alt="apex-legends">
+                  <img src="img/card-image/40775175a77bbdbceac35e9f71bf43dc-3569577265.jpg" alt="rainbow-six-siege">
+                  <img src="img/card-image/communityIcon_w7mmx3nnpjj91-3835960589.png" alt="the-finals">
+                  <img src="img/card-image/-41603132788rzosdsitdt-1866411546.png" alt="valorant">
                 </div>
-                <div class="card">
-                    <img src="./img/icon/c-sharp-c-icon-456x512-9sej0lrz.png"/>
-                    <h4>C#</h4>
-                    <progress value="30" max="100"></progress>
-                    <p>I learned C# since 2021 to make videogames project with my friends at Elementary Schools, and I learned ASP.NET</p>
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+
+              <div class="video-editing py-2" data-aos="fade-down">
+                <h3 class="mb-4" data-aos="fade-down">Video Editing</h3>
+                <div class="container py-4 my-5 d-flex justify-content-around" data-aos="fade-down">
+                  <img src="img/card-image/adobe-premiere-pro-logo-0-3889933437.png" alt="adobe-premiere-pro">
+                  <img src="img/card-image/adobe-after-effects-logo-2472973421.png" alt="adobe-after-effect">
+                  <img src="img/card-image/6424a78756db5fb908dca86c-3205838087.png" alt="davinci-resolve">
                 </div>
-                <div class="card">
-                    <img src="./img/icon/Python-logo-notext.svg.png"/>
-                    <h4>Python</h4>
-                    <progress value="40" max="100"></progress>
-                    <p>I learned Python to make some Databases, API, etc. and I have learned python frameworks like Django, Flask, Web2py, etc.</p>
+              </div>
+
+              <div class="designing py-2" data-aos="fade-down">
+                <h3 class="mb-4" data-aos="fade-down">Design and Illustrating</h3>
+                <div class="container py-4 my-5 d-flex justify-content-around" data-aos="fade-down">
+                  <img src="img/card-image/202-2026376_adobe-photoshop-logo-photoshop-cc-logo-png-transparent-3038419066.png" alt="adobe-photoshop">
+                  <img src="img/card-image/Adobe_Illustrator_icon_CS6.svg_.webp" alt="adobe-illustrator">
+                  <img src="img/card-image/corel-draw-logo-png-3.jpg" alt="corel-draw">
                 </div>
-                <div class="card">
-                    <img src="./img/icon/new-php-logo.svg"/>
-                    <h4>PHP</h4>
-                    <progress value="40" max="100"></progress>
-                    <p>I learned PHP since 2022, and I used it while doing some Web Development Project from online Courses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <section class="py-5 my-5" id="projects">
+        <div class="container py-5 my-5">
+          <div class="row text-center">
+            <div class="col"></div>
+            <h1 class="display-6">Projects</h1>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100" data-aos="fade-up" data-aos-delay="200">
+                    <img src="img/card-image/Screenshot (113).png" class="card-img-top" alt="p-1" />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Cosplayer Profile Website</h5>
+                      <p class="card-text-start">
+                        Website ini saya buat menggunakan Framework Javascript yaitu Vite.js, saya membuat website ini sebagai salah satu latihan saya dalam mempelajari Client-Side JavaScript
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100" data-aos="fade-up" data-aos-delay="400">
+                    <img src="img/card-image/Screenshot (250).png" class="card-img-top" alt="p-2" />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Web Portfolio</h5>
+                      <p class="card-text">
+                        Web Portfolio ini saya buat menggunakan HTML dan Framework CSS yaitu Bootstrap
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100" data-aos="fade-up" data-aos-delay="600">
+                    <img src="img/card-image/unnamed.jpg" class="card-img-top" alt="p-3" />
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Illustrating</h5>
+                      <p class="card-text">
+                        Di Project ini saya mengambil referensi dari cover lagu Trap EDM berjudul Don't Stop dari KUURO
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <section class="contact py-5" id="contact">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h1 class="display-6" data-aos="fade-down">Contact Me</h1>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3" data-aos="fade-right">
+                  <label for="name" class="form-label">NAME</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name" />
+                </div>
+                <div class="mb-3" data-aos="fade-right" data-aos-delay="200">
+                  <label for="email" class="form-label">EMAIL</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" />
+                </div>
+                <div class="mb-3" data-aos="fade-right" data-aos-delay="400">
+                  <label for="exampleFormControlTextarea1" class="form-label">MESSAGE</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+  
+                <button type="submit" class="btn btn-primary" data-aos="fade-right" data-aos-delay="600">SEND</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-black text-center p-3" data-aos="fade-up" data-aos-anchor=".other-element">
+        <p class="text-light">
+          Created by
+          <a href="https://www.instagram.com/harits_f_k/" class="text-light fw-bold" >Arsyad Rianda Putra</a>
+        </p>
+        <div class="row justify-content-center">
+                <div class="col-1">
+                    <a href="https://github.com/InsoniacX"><i class="bi bi-github"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.youtube.com/channel/UCBptgpMs3PJAeSMTBTHA1BA"><i class="bi bi-youtube"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://open.spotify.com/user/31nyhdczu6kqsqbywa5gg47fvk7q?si=34c12825b55b4ab1"><i class="bi bi-spotify"></i></a>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Skills Section End -->
+      </footer>
 
-    <section id="content" class="content">
-        <div class="content-empat">
-            <h2>Content</h2>
-            <div class="container">
-                <div class="card">
-                    
-                </div>
-            </div>
-        </div>
-    </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-    <script src="js/script.js"></script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

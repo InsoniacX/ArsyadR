@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', Arial;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: white;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+
+.logo span {
+    color: grey;
+}
+
+.navbar-toggler {
+    border: 1px solid gray;
+}
+
+.navbar-toggler:active {
+    border: 3px solid white;
+}
+
+/* Main Section */
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main img {
+    float: inline-end;
+}
+
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.main h6 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    width: 40%;
+    border-bottom: 3px solid white;
+}
+
+.main .bt1 {
+    height: 55px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt1:hover {
+    background-color: white;
+    color: #000;
+    transition: 0.3s;
+}
+
+.main .bt2 {
+    height: 55px;
+    width: 140px;
+    color: #000;
+    background-color: white;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .bt2:hover {
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.about img {
+    box-shadow: 27px 31px 24px -16px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 27px 31px 24px -16px rgba(0,0,0,0.63);
+    -moz-box-shadow: 27px 31px 24px -16px rgba(0,0,0,0.63);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.progress {
+    background-color: rgb(190, 190, 190);
+    justify-content: flex-start;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+
+.pro-value1 {
+    animation: load1 3s normal forwards;
+    border-radius: 5px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.pro-value2 {
+    animation: load2 3s normal forwards;
+    border-radius: 5px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.pro-value3 {
+    animation: load3 3s normal forwards;
+    border-radius: 5px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.pro-value4 {
+    animation: load4 3s normal forwards;
+    border-radius: 5px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+
+.progress p {
+    color: white;
+    margin: auto;
+    padding: 6px;
+}
+
+.btn1 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn1:hover {
+    transition: 0.3s;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn2 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.btn2:hover {
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+}
+
+.skills img {
+    width: 80px;
+}
+
+.control ul li {
+    list-style: none;
+    background-color: black;
+}
+
+.projects .card {
+    width: 300px;
+}
+
+/* Animation */
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 65%;
+    }
+}
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes load4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:991.98px) {
+    .main img{
+        float: none;
+    }
+
+    .main {
+        text-align: center;
+        height: auto;
+    }
+
+    .main h6 {
+        text-align: center;
+    }
+}
