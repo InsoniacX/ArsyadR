@@ -235,8 +235,9 @@ h1 {
     }
 }
 
-@media screen and (max-width:991.98px) {
+@media screen and (max-width:1200px) {
     .main img{
+        width: 300px;
         float: none;
     }
 
