@@ -235,13 +235,16 @@ h1 {
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:991px) {
     .main img{
         width: 300px;
         float: none;
     }
 
     .main {
+        display: flex;
+        width: auto;
+        align-items: center;
         text-align: center;
         height: auto;
     }
