@@ -150,6 +150,14 @@ h1 {
     width: 0;
 }
 
+.text-content h3 {
+    font-size: 24px;
+}
+
+.text-content p {
+    font-size: 18px;
+}
+
 .progress p {
     color: white;
     margin: auto;
@@ -207,7 +215,7 @@ h1 {
         width: 0;
     }
     100% {
-        width: 60%;
+        width: 100%;
     }
 }
 @keyframes load2 {
