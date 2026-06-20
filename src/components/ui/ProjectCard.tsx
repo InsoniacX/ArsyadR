@@ -1,5 +1,5 @@
 import { projects } from "@/data";
-import type { Project } from "@/types";
+import type { Project } from "@/data";
 import { useState } from "react";
 
 const ProjectCard = ({
