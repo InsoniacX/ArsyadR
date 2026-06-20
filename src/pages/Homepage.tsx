@@ -68,7 +68,7 @@ const Homepage = () => {
             >
               <a
                 href="/project"
-                className="px-6 py-3 bg-[#a57f15] hover:bg-[#c2951a] dark:bg-[#c9a84c] text-black text-xs tracking-[0.2em] uppercase font-bold dark:hover:bg-[#b8943d] transition-colors cursor-pointer"
+                className="px-6 py-3 bg-[#a57f15] hover:bg-[#c2951a] dark:bg-[#c9a84c] text-black text-xs tracking-[0.2em] uppercase dark:hover:bg-[#b8943d] transition-colors cursor-pointer"
               >
                 View My Work
               </a>
@@ -128,7 +128,7 @@ const Homepage = () => {
           className="reveal w-full flex mb-16 items-baseline gap-3"
         >
           <span className="jetbrains-mono text-[0.5rem]">01</span>
-          <h2 className="cormorant-garamond text-nowrap text-5xl font-thin flex items-end gap-2">
+          <h2 className="cormorant-garamond text-nowrap text-black dark:text-white text-5xl font-thin flex items-end gap-2">
             About <span className="text-[#c9a84c]">Me</span>
           </h2>
           <div className="w-full bg-[#c9a84c] h-px"></div>
@@ -164,7 +164,9 @@ const Homepage = () => {
             className="reveal reveal-right flex flex-col items-center relative"
           >
             <div className="w-full h-1/4 relative cormorant-garamond border-gray-900 border-s-2 my-3 py-4 px-4">
-              <h2 className="text-xl jetbrains-mono font-bold">Location</h2>
+              <h2 className="text-xl jetbrains-mono text-black dark:text-white font-bold">
+                Location
+              </h2>
               <p className="text-gray-700 dark:text-gray-300 text-sm mt-2">
                 Bandung, Indonesia
               </p>
@@ -173,13 +175,15 @@ const Homepage = () => {
               </p>
             </div>
             <div className="w-full h-1/4 relative cormorant-garamond border-gray-900 border-s-2 my-3 py-4 px-4">
-              <h2 className="text-xl jetbrains-mono font-bold">Currently</h2>
+              <h2 className="text-xl jetbrains-mono text-black dark:text-white font-bold">
+                Currently
+              </h2>
               <p className="text-gray-700 dark:text-gray-300 text-sm mt-2">
                 Open to Opportunities
               </p>
             </div>
             <div className="w-full h-1/4 relative cormorant-garamond border-gray-900 border-s-2 my-3 py-4 px-4">
-              <h2 className="text-xl jetbrains-mono font-bold">
+              <h2 className="text-xl jetbrains-mono text-black dark:text-white font-bold">
                 Last Education
               </h2>
               <p className="text-gray-700 dark:text-gray-300 text-sm mt-2">
@@ -187,7 +191,9 @@ const Homepage = () => {
               </p>
             </div>
             <div className="w-full h-1/4 relative cormorant-garamond border-gray-900 border-s-2 my-3 py-4 px-4">
-              <h2 className="text-xl jetbrains-mono font-bold">Languages</h2>
+              <h2 className="text-xl jetbrains-mono text-black dark:text-white font-bold">
+                Languages
+              </h2>
               <p className="text-gray-700 dark:text-gray-300 text-sm mt-2">
                 Indonesia, English
               </p>

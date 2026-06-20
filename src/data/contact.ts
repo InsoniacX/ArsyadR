@@ -38,7 +38,6 @@ export const DELAYS: number[] = [
   3500, 3700, 3900,
 ];
 
-// Contact form fields
 export const FORM_FIELDS: FormField[] = [
   {
     label: "> enter your name    :",

@@ -3,5 +3,5 @@ export interface Project {
   title: string;
   description: string;
   githubURL: string;
-  demoURL: string;
+  demoURL: number;
 }

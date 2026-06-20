@@ -55,4 +55,12 @@ export const projects: Project[] = [
     githubURL: "https://github.com/InsoniacX/mikrotik-configuration-web",
     demoURL: "",
   },
+  {
+    title: "Dailypace",
+    description:
+      "This is website project made with Prestashop, a free and open-source e-commerce platform. It is a website for an online store that sells daily necessities. The website features a clean and modern design with a product catalog, shopping cart, and checkout system.",
+    imgSrc: "/Dailypace.png",
+    githubURL: "",
+    demoURL: "https://dailypace.duckdns.org/",
+  },
 ];

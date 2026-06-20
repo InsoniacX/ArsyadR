@@ -31,7 +31,7 @@ const TerminalContact = () => {
   }, [visibleLines, formVisible]);
 
   return (
-    <section className="flex items-center justify-center px-5 py-10 bg-[#070709] relative overflow-hidden">
+    <section className="flex items-center justify-center px-5 py-10 bg-[#f8f8f8] dark:bg-[#070709] relative overflow-hidden">
       <div
         className="pointer-events-none fixed inset-0 z-10"
         style={{
