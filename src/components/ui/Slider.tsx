@@ -18,7 +18,6 @@ const Slider = () => {
 
     const animate = () => {
       position += speed;
-      // Reset once we've scrolled one full set of items
       if (position >= singleWidth) {
         position = 0;
       }
@@ -35,8 +34,8 @@ const Slider = () => {
     <div className="w-full overflow-hidden">
       {/* Fade edges */}
       <div className="relative">
-        <div className="absolute left-0 top-0 h-full w-24 bg-linear-to-r from-white dark:from-black to-transparent z-10 pointer-events-none" />
-        <div className="absolute right-0 top-0 h-full w-24 bg-linear-to-l from-white dark:from-black to-transparent z-10 pointer-events-none" />
+        <div className="absolute left-0 top-0 h-full w-24 bg-linear-to-r from-[#8b8b8b] dark:from-black to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 h-full w-24 bg-linear-to-l from-[#8b8b8b] dark:from-black to-transparent z-10 pointer-events-none" />
 
         <div ref={trackRef} className="flex gap-6 w-max">
           {doubled.map((tech, i) => (

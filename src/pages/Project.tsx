@@ -7,7 +7,7 @@ const Projects = () => {
   const gridRef = StaggerReveal();
 
   return (
-    <section className="flex-1 flex-col bg-[#fafafc] dark:bg-[#0a0a0c] text-white flex items-center px-16 py-12">
+    <section className="flex-1 flex-col bg-[#8b8b8b] dark:bg-[#0a0a0c] text-white flex items-center px-16 py-12">
       {/* Section header */}
       <div
         ref={headerRef}
@@ -33,11 +33,7 @@ const Projects = () => {
         className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px"
       >
         {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            project={project}
-            featured={index === 0}
-          />
+          <ProjectCard key={index} project={project} featured={index === 0} />
         ))}
       </div>
 

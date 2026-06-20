@@ -19,12 +19,12 @@ const Homepage = () => {
 
   return (
     <>
-      <section className="flex-1 bg-[#fafafc] dark:bg-[#0a0a0c] z-0 pb-28 text-white flex items-center px-16 py-12">
+      <section className="flex-1 bg-[#8b8b8b] dark:bg-[#0a0a0c] z-0 pb-28 text-white flex items-center px-16 py-12">
         <div className="w-full mx-12 flex flex-col md:flex-row items-center justify-around gap-12 z-1">
           <div className="flex-1 flex flex-col text-center md:text-start gap-6">
             {/* Label */}
             <div ref={heroLabelRef} className="reveal flex items-center gap-3">
-              <div className="w-8 h-0.5 bg-[#a57f15] dark:bg-[#c9a84c]" />
+              <div className="w-8 h-0.5 bg-[#e4b22a] dark:bg-[#c9a84c]" />
               <span className="text-xs tracking-[0.3em] text-gray-800 cormorant-garamond dark:text-gray-400 uppercase">
                 Open to Opportunities
               </span>
@@ -38,7 +38,7 @@ const Homepage = () => {
               <h1 className="text-7xl font-serif font-bold cormorant-garamond text-zinc-800 dark:text-white">
                 Arsyad
               </h1>
-              <h1 className="text-7xl font-serif italic cormorant-garamond text-[#a57f15] dark:text-[#c9a84c]">
+              <h1 className="text-7xl font-serif italic cormorant-garamond text-[#ebb626] dark:text-[#c9a84c]">
                 Rianda Putra
               </h1>
             </div>
@@ -68,7 +68,7 @@ const Homepage = () => {
             >
               <a
                 href="/project"
-                className="px-6 py-3 bg-[#a57f15] hover:bg-[#c2951a] dark:bg-[#c9a84c] text-black text-xs tracking-[0.2em] uppercase dark:hover:bg-[#b8943d] transition-colors cursor-pointer"
+                className="px-6 py-3 bg-[#ecb620] hover:bg-[#c2951a] dark:bg-[#c9a84c] text-black text-xs tracking-[0.2em] uppercase dark:hover:bg-[#b8943d] transition-colors cursor-pointer"
               >
                 View My Work
               </a>
@@ -121,13 +121,15 @@ const Homepage = () => {
       </section>
 
       {/* About Section */}
-      <section className="flex-1 flex-col bg-[#fafafc] dark:bg-[#0a0a0c] text-white flex items-center px-16 py-12">
+      <section className="flex-1 flex-col bg-[#8b8b8b] dark:bg-[#0a0a0c] text-white flex items-center px-16 py-12">
         {/* Section header */}
         <div
           ref={aboutHeaderRef}
           className="reveal w-full flex mb-16 items-baseline gap-3"
         >
-          <span className="jetbrains-mono text-[0.5rem]">01</span>
+          <span className="jetbrains-mono text-black dark:text-white text-[0.5rem]">
+            01
+          </span>
           <h2 className="cormorant-garamond text-nowrap text-black dark:text-white text-5xl font-thin flex items-end gap-2">
             About <span className="text-[#c9a84c]">Me</span>
           </h2>
